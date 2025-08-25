@@ -1,0 +1,13 @@
+.foto {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 2 kolom */
+  gap: 10px; /* jarak antar foto */
+  padding: 10px;
+  background: #758673; /* warna background merah tua kayak contoh */
+}
+
+.foto img {
+  width: 100%;
+  border-radius: 10px; /* biar kotak foto agak rounded */
+  object-fit: cover;
+}
